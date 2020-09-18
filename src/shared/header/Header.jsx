@@ -1,4 +1,3 @@
-import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import styles from './header.less';
 
@@ -10,4 +9,4 @@ export const HeaderComponent = () => {
   );
 };
 
-export const Header = hot(HeaderComponent);
+export default HeaderComponent;
