@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true,
+        "jest": true
+    },
+
+    "extends": [
+        "standard",
+        "standard-react",
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
+    
+    "plugins": [
+        "import"
+    ],
+    
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        }
+    },
+
+    "rules": {
+        "capitalized-comments": "off",
+        "semi": ["error", "always"]
+    },
+
+    "parser": "babel-eslint"
+}

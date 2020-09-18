@@ -12,4 +12,4 @@ export const indexTemplate = (content) => `
         <div id="root">${content}</div>
     </body>
     </html>
-`
+`;

@@ -41,6 +41,7 @@ module.exports = {
 							}
 						}
 					},
+					// 'postcss-loader',
 					'less-loader'
 				],
 			}

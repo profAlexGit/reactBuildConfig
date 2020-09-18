@@ -1,0 +1,5 @@
+{
+    "dev/**/*.+(js|jsx|tsx)": [
+        "eslint --fix"
+    ]
+}
