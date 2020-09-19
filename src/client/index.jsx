@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Header} from '../shared/Header.jsx'
+import { App } from '../shared/app/app.jsx';
 
 window.addEventListener('load', () => {
-    ReactDOM.hydrate(
-        <Header />,
-        document.getElementById('root')
-    );
+  ReactDOM.hydrate(
+    <App />,
+    document.getElementById('root')
+  );
 });
-
