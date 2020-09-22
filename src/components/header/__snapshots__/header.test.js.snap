@@ -3,7 +3,7 @@
 exports[`<HeaderComponent /> renders correctly 1`] = `
 <header>
   <h1>
-    Reddit for our own!!!
+    Header
   </h1>
 </header>
 `;
