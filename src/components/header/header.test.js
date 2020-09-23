@@ -15,9 +15,7 @@ describe('<HeaderComponent />', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer
-      .create(<HeaderComponent />)
-      .toJSON();
+    const tree = renderer.create(<HeaderComponent />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

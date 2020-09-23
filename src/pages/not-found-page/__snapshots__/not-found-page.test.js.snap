@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> renders correctly 1`] = `
+<StatusCode
+  code={404}
+>
+  <main>
+    <h1>
+      404 page
+    </h1>
+  </main>
+</StatusCode>
+`;
